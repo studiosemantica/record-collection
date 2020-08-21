@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # post "/login", to: "users#login"
   # get "/auto_login", to: "users#auto_login"
   
+
   post '/artists', to: "artists#create"
   post '/login', to: "users#login"
   get '/auto_login', to: "users#auto_login"
